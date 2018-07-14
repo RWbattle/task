@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="test_jdbc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_jdbc_jar</output-path>
+    <root id="root">
+      <element id="archive" name="test_jdbc.jar">
+        <element id="module-output" name="test_jdbc" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.24" />
+      </element>
+    </root>
+  </artifact>
+</component>
