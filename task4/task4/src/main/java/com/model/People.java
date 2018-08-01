@@ -14,6 +14,7 @@ public class People {
     private long creatTime;
     private long updateTime;
     private int job;
+    private String picture;
 
     public long getId() {
         return id;
@@ -63,6 +64,14 @@ public class People {
         this.job = job;
     }
 
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+
     @Override
     public String toString() {
         return "People{" +
@@ -72,6 +81,7 @@ public class People {
                 ", creatTime=" + creatTime +
                 ", updateTime=" + updateTime +
                 ", job=" + job +
+                ", picture='" + picture + '\'' +
                 '}';
     }
 }

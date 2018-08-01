@@ -8,7 +8,7 @@
 
     <!--welcome pages，就是首页显示的页面-->
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>/people</welcome-file>
     </welcome-file-list>
 
     <listener>

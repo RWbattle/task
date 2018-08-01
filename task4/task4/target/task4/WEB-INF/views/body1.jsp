@@ -150,7 +150,7 @@
             <c:forEach items="${peo}" var="peo" begin="0" end="3" varStatus="now">
                 <li class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div>
-                        <img src="imges/242424.png">
+                        <img src="${peo.picture}">
                         <span>技术顾问:${peo.name}</span>
                         <p class="text-left">${peo.info}</p>
                         <p><date:date value="${peo.creatTime}"/></p>

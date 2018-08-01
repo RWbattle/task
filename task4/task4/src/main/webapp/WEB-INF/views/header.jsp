@@ -40,13 +40,12 @@
             </div>
             <div id="open-nav" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                 <ul class="nav navbar-nav navbar-right text-center list-inline">
-                    <li><a href="">首页</a></li>
-                    <li><a href="../t11/index.html">职业</a></li>
+                    <li><a href="${pageContext.request.contextPath}/people">首页</a></li>
+                    <li><a href="${pageContext.request.contextPath}/profession">职业</a></li>
                     <li><a href="">推荐</a></li>
-                    <li><a href="">关于</a></li>
+                    <li><a href="${pageContext.request.contextPath}/company">关于</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
 </header>

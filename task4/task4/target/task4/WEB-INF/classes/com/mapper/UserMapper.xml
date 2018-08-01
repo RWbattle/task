@@ -9,6 +9,7 @@
         <result property="name" column="name"/>
         <result property="info" column="info"/>
         <result property="creatTime" column="creat_at"/>
+        <result property="picture" column="picture"/>
         <!--<collection property="interests" column="interestname" ofType="Interests">-->
             <!--<id property="id" column="interestid"/>-->
             <!--<result property="name" column="interestname"/>-->
@@ -38,7 +39,7 @@
     </select>
 
     <select id="listJob" parameterType="com.model.People" resultMap="PeopleMap">
-        select name,info,creat_at from people where job=1
+        select name,info,creat_at,picture from people where job=1
     </select>
 
 </mapper>
