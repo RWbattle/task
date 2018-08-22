@@ -1,4 +1,0 @@
-2018-08-19 11:54:43  [ main:0 ] - [ INFO ]  MLog clients using log4j logging.
-2018-08-19 11:54:43  [ main:571 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2018-08-19 11:55:23  [ main:1 ] - [ INFO ]  MLog clients using log4j logging.
-2018-08-19 11:55:24  [ main:550 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
