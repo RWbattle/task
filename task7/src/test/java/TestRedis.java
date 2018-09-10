@@ -31,7 +31,6 @@ public class TestRedis {
     private RedisTemplate redisTemplate;
     People people = new People();
     @Autowired
-    @Qualifier("userServiceRedisImpl")
     private UserService userService;
 
     @Test

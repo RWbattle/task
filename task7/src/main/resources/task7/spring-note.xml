@@ -7,11 +7,11 @@
 
     <!-- 注入 testSmsSdk -->
     <bean id="noteUtil" class="com.util.task7.NoteUtil">
-        <constructor-arg name="accountSid" value="8aaf070865614101016564efec02023f"/>
-        <constructor-arg name="accountToken" value="d41096fd310947d289e0c01e19bdd063"/>
+        <constructor-arg name="accountSid" value=""/>
+        <constructor-arg name="accountToken" value=""/>
         <constructor-arg name="serverIp" value="sandboxapp.cloopen.com"/>
         <constructor-arg name="serverPort" value="8883"/>
-        <constructor-arg name="appId" value="8aaf070865614101016564efec590245"/>
+        <constructor-arg name="appId" value=""/>
         <constructor-arg name="templateId" value="1"/>
         <constructor-arg name="time" value="3"/>
     </bean>

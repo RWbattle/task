@@ -6,6 +6,7 @@
  * @Date 2018/8/26 23:04
  **/
 
+import com.mapper.UserMapper;
 import com.service.UpImgService;
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
@@ -30,4 +31,5 @@ public class Test3 {
         String url = upImgService.updateHead(multipartFile);
         System.out.println(url);
     }
+
 }

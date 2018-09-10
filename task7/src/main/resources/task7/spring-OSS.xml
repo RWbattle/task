@@ -8,8 +8,8 @@
     <!-- 注入 testSmsSdk -->
 
     <bean id="ossClient" class="com.aliyun.oss.OSSClient">
-        <constructor-arg name="accessKeyId" value="LTAItfVSyadJQBqb"/>
-        <constructor-arg name="secretAccessKey" value="la3u2afJMIKLxyYPv2syP3o04qNaDl"/>
+        <constructor-arg name="accessKeyId" value=""/>
+        <constructor-arg name="secretAccessKey" value=""/>
         <constructor-arg name="endpoint" value="http://oss-cn-beijing.aliyuncs.com"/>
     </bean>
 
